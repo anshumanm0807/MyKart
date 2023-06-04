@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  /* background: var(--main-bg-color); */
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 88px;
+  padding: 5px 25px;
+  height: 60px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0px 14px;
+  margin-top: 9px;
+}
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  height: 27px;
+  width: 493px;
+  border-radius: 5px;
+  margin: 0px 16px 0px;
+  color: black;
+  padding: 0px 12px;
+}
+.search button {
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+.slider {
+  margin: 12px auto;
+  /* margin-left: 75px; */
+  width: 80vw;
+  overflow: hidden;
+}
+.card {
+  max-width: 87vw;
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+.cards {
+  display: flex;
+  overflow: auto;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+.card h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer {
+  height: 8vh;
+  /* background-color: var(--main-bg-color); */
+  background-color: black;
+  color: antiquewhite;
+  font-family: "Open Sans", sans-serif;
+}
+
